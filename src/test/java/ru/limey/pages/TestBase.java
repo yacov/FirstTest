@@ -1,23 +1,13 @@
 package ru.limey.pages;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.concurrent.TimeUnit;
-
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.remote.Augmenter;
-import org.openqa.selenium.remote.ScreenshotException;
-import org.testng.ITestResult;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
-
-import ru.limey.util.PropertyLoader;
 import ru.limey.util.Browser;
+import ru.limey.util.PropertyLoader;
 import ru.limey.webdriver.WebDriverFactory;
+
+import java.util.concurrent.TimeUnit;
 
 /*
  * Base class for all the test classes

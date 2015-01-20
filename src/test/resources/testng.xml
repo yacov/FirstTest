@@ -4,7 +4,7 @@
 	<test name="Test1">
 		<parameter name="path" value="/"/>
 		<classes>
-		    <class name="ru.limey.pages.HomePageTest"/>
+		    <class name="ru.limey.pages.RegisterTest"/>
 		</classes>
 	</test>  
 </suite>
